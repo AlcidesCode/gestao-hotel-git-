@@ -6,7 +6,7 @@ def registar_clientes():
     email = input("Email do cliente: ")
     nif = input("NIF do cliente: ")
     clientes.append({"nome": nome, "telefone": telefone, "email": email, "nif": nif})
-    print(f"Clinte '{nome}' registado com sucesso!")
+    print(f"Cliente '{nome}' registado com sucesso!")
 
 
 def listar_clientes():
