@@ -15,7 +15,7 @@ def listar_clientes():
     else:
         print("\n=== Lista de Clientes ===")
         for c in clientes:
-            print(f"Nome; {c['nome']} | Telefone; {['telefone']} | Email; {['email']} | NIF; {['nif']}")
+            print(f"Nome: {c['nome']} | Telefone: {c['telefone']} | Email: {c['email']} | NIF: {c['nif']}")
 
 
 def menu_clientes():
